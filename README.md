@@ -19,5 +19,5 @@ Clone the repository
 Build the project with ./mvnw clean install
 Run the application using ./mvnw spring-boot:run.
 
-Running Tests
+Running Test
 Run unit tests by entering ./mvnw test.
