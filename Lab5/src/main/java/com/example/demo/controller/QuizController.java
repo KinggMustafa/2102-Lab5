@@ -26,7 +26,7 @@ public class QuizController {
         quizQuestions.add(new QuizQuestion(
                 "In which movie did we first see Gogeta",
                 new String[]{"Broly: Second Coming", "Fusion Reborn", "The Return of Cooler", "Battle of Gods"},
-                "Grand Theft Auto"));
+                "Fusion Reborn"));
 
         quizQuestions.add(new QuizQuestion(
                 "Who was Goku's main rival in the original Dragon Ball Series",
