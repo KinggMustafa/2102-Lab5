@@ -19,29 +19,29 @@ public class QuizController {
         List<QuizQuestion> quizQuestions = new ArrayList<>();
 
         quizQuestions.add(new QuizQuestion(
-                "What is the name of the plumber character created by Nintendo?",
-                new String[]{"Mario", "Luigi", "Wario", "Toad"},
-                "Mario"));
+                "Who is the Legendary Super Saiyan",
+                new String[]{"Bardock", "Broly", "Goku", "Trunks"},
+                "Bardock"));
 
         quizQuestions.add(new QuizQuestion(
-                "Which video game series features the fictional city of Vice City?",
-                new String[]{"Grand Theft Auto", "Saints Row", "Watch Dogs", "Mafia"},
+                "In which movie did we first see Gogeta",
+                new String[]{"Broly: Second Coming", "Fusion Reborn", "The Return of Cooler", "Battle of Gods"},
                 "Grand Theft Auto"));
 
         quizQuestions.add(new QuizQuestion(
-                "What is the highest level a player can reach in Pac-Man?",
-                new String[]{"Level 99", "Level 256", "Level 150", "Level 300"},
-                "Level 256"));
+                "Who was Goku's main rival in the original Dragon Ball Series",
+                new String[]{"Piccolo", "Vegeta", "Krillin", "Yamcha"},
+                "Piccolo"));
 
         quizQuestions.add(new QuizQuestion(
-                "Which game is known for the quote 'War. War never changes.'?",
-                new String[]{"Fallout", "Call of Duty", "Battlefield", "Halo"},
-                "Fallout"));
+                "What technique did Goku learn from King Kai",
+                new String[]{"Destroucto Disc", "Instant Transmission", "Kamehameha", "Kaio-ken"},
+                "Kaio-ken"));
 
         quizQuestions.add(new QuizQuestion(
-                "In which game does a character named Geralt hunt monsters for a living?",
-                new String[]{"The Witcher", "Dark Souls", "Bloodborne", "Skyrim"},
-                "The Witcher"));
+                "Why did vegeta shave his mustache",
+                new String[]{"it made him look like a total geek", "it was not the saiyan way", "to get ssj 4", "Piccolo"},
+                "it made him look like a total geek"));
 
         return quizQuestions;
     }
